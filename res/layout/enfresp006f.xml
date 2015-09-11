@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/RelativeLayout01"
+    android:layout_below="@+id/RelativeLayout01"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:fadingEdge="vertical"
+    android:scrollbarDefaultDelayBeforeFade="10000000000000000"
+    android:scrollbarFadeDuration="1000000000000000000"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:layout_width="1005dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView04"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginLeft="23dp"
+            android:text="Enfermedades Crónicas"
+            android:textColor="#0e225f"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            tools:ignore="HardcodedText" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView04"
+            android:layout_below="@+id/TextView02"
+            android:background="@android:color/holo_green_light"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="horizontal" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/CheckBox01"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:background="#46ee79"
+                    android:button="?android:attr/listChoiceIndicatorMultiple"
+                    android:paddingLeft="30dp"
+                    android:text="@string/asma"
+                    android:textSize="21sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"
+                    
+                     />
+
+                <CheckBox
+                    android:id="@+id/CheckBox10"
+                    android:layout_width="200dp"
+                    android:layout_height="fill_parent"
+                    android:background="#6ceae3"
+                    android:paddingLeft="30dp"
+                    android:text="@string/cardiopat_a_cr_nica"
+                    android:textSize="21sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+                <CheckBox
+                    android:id="@+id/CheckBox12"
+                    android:layout_width="250dp"
+                    android:layout_height="fill_parent"
+                    android:background="#46ee79"
+                    android:paddingLeft="30dp"
+                    android:text="@string/enfermedad_hep_tica_cr_nica"
+                    android:textSize="21sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+                <CheckBox
+                    android:id="@+id/CheckBox14"
+                    android:layout_width="200dp"
+                    android:layout_height="fill_parent"
+                    android:background="#6ceae3"
+                    android:paddingLeft="30dp"
+                    android:text="@string/enfermedad_renal_cr_nica"
+                    android:textSize="21sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <CheckBox
+                    android:id="@+id/CheckBox08"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:background="#46ee79"
+                    android:paddingLeft="30dp"
+                    android:text="@string/otra_enfermedad_pulmonar_cr_nica"
+                    android:textSize="21sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+                <CheckBox
+                    android:id="@+id/CheckBox11"
+                    android:layout_width="80dp"
+                    android:layout_height="fill_parent"
+                    android:background="#6ceae3"
+                    android:paddingLeft="30dp"
+                    android:text="@string/diabetes"
+                    android:textSize="21sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+                <CheckBox
+                    android:id="@+id/CheckBox13"
+                    android:layout_width="200dp"
+                    android:layout_height="fill_parent"
+                    android:background="#46ee79"
+                    android:paddingLeft="30dp"
+                    android:text="@string/enfermedad_neurol_gica_cr_nica"
+                    android:textSize="21sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+                <CheckBox
+                    android:id="@+id/CheckBox15"
+                    android:layout_width="200dp"
+                    android:layout_height="fill_parent"
+                    android:background="#6ceae3"
+                    android:padding="30dp"
+                    android:text="@string/obesidad"
+                    android:textSize="21sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/CheckBox09"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#46ee79"
+                    android:paddingLeft="30dp"
+                    android:text="@string/inmunodeficiencia_por_enfermedad_o_tratamiento"
+                    android:textSize="21sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="#6ceae3" >
+
+                    <TextView
+                        android:id="@+id/TextView09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/otra"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="21sp"
+                        android:textStyle="normal|italic"
+                        android:typeface="serif" />
+
+                    <EditText
+                        android:id="@+id/EditText14"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:textColor="#48187d"
+                        android:textSize="19sp"
+                        android:textStyle="italic"
+                        android:typeface="serif" >
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="#46ee79" >
+
+                    <TextView
+                        android:id="@+id/TextView08"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/otra"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="21sp"
+                        android:textStyle="normal|italic"
+                        android:typeface="serif" />
+
+                    <EditText
+                        android:id="@+id/EditText13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.86"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:textColor="#48187d"
+                        android:textSize="19sp"
+                        android:textStyle="italic"
+                        android:typeface="serif" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="#6ceae3" >
+
+                    <TextView
+                        android:id="@+id/TextView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/otra"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="21sp"
+                        android:textStyle="normal|italic"
+                        android:typeface="serif" />
+
+                    <EditText
+                        android:id="@+id/EditText15"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:textColor="#48187d"
+                        android:textSize="19sp"
+                        android:textStyle="italic"
+                        android:typeface="serif" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_below="@+id/TextView01"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView13" />
+
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/personas_dormitorio_en_la_casa"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lay0"
+            android:layout_below="@+id/lay0"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView11" />
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/convivientes_en_la_casa"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lay"
+            android:layout_below="@+id/lay"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView03" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/fumadores_en_casa"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout01"
+            android:layout_below="@+id/RelativeLayout01"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView05" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/asistencia_a_c_rculo_infantil_o_casa_cuidadora"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout02"
+            android:layout_below="@+id/RelativeLayout02"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView06" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/lactancia_materna_durante_el_primer_a_o_de_vida"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout03"
+            android:layout_below="@+id/RelativeLayout03"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView07" />
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/bajo_peso_al_nacer"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout04"
+            android:layout_below="@+id/RelativeLayout04"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView16" />
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/madre_vacunada_contra_influenza_en_el_embarazo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout08"
+            android:layout_below="@+id/RelativeLayout08"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView12" />
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/episodios_ira_alta_a_repetici_n_en_el_ltimo_a_o"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout05"
+            android:layout_below="@+id/RelativeLayout05"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView14" />
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/antecedentes_de_rinitis_al_rgica"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout06"
+            android:layout_below="@+id/RelativeLayout06"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView15" />
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/consumo_de_antibi_ticos_en_los_ltimos_dos_meses"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layantibs"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignLeft="@+id/RelativeLayout07"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/RelativeLayout07"
+            android:layout_marginLeft="87dp"
+            android:background="@android:color/holo_blue_light" >
+
+            <TextView
+                android:id="@+id/TextView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="Cuáles:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/TextView19"
+                android:layout_toRightOf="@+id/TextView18"
+                android:text="1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/TextView17"
+                android:ems="10"
+                android:inputType="textMultiLine" >
+
+               
+            </EditText>
+
+            <TextView
+                android:id="@+id/TextView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="Cuáles:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editText1"
+                android:layout_marginLeft="36dp"
+                android:layout_toRightOf="@+id/editText1"
+                android:text="Dias de consumo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/TextView19"
+                android:layout_toRightOf="@+id/TextView19"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/TextView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView19"
+                android:layout_below="@+id/editText2"
+                android:text="Dias de consumo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/TextView22"
+                android:layout_toRightOf="@+id/TextView22"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/TextView22"
+                android:layout_alignBottom="@+id/TextView22"
+                android:layout_toLeftOf="@+id/TextView19"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/EditText02"
+                android:layout_alignBottom="@+id/EditText02"
+                android:layout_toLeftOf="@+id/editText1"
+                android:text="2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/EditText02"
+                android:layout_alignTop="@+id/TextView24"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/TextView24"
+                android:layout_toLeftOf="@+id/TextView19"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/TextView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/EditText03"
+                android:layout_toRightOf="@+id/TextView18"
+                android:text="3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView22"
+                android:layout_below="@+id/EditText02"
+                android:text="Dias de consumo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/layantibs"
+            android:layout_below="@+id/TextView25"
+            android:background="@drawable/shape">
+
+            <CheckBox
+                android:id="@+id/CheckBox03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/Spinner05a"
+                android:text="@string/antibi_ticos_en_los_ltimos_7_10_d_as"
+                android:textSize="21sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <Spinner
+                android:id="@+id/Spinner05a"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/TextView10b"
+                android:layout_toRightOf="@+id/TextView26" />
+
+            <TextView
+                android:id="@+id/TextView10b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/antivirales_"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#003574"
+                android:textSize="21sp"
+                android:textStyle="normal|italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/ImageButton01v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/CheckBox03"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="37dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <TextView
+                android:id="@+id/TextView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/CheckBox03"
+                android:layout_alignParentLeft="true"
+                android:text="@string/oseltamivir"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="normal|italic"
+                android:typeface="serif"
+                tools:ignore="TooManyViews" />
+
+            <EditText
+                android:id="@+id/EditText10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/TextView26"
+                android:layout_alignBottom="@+id/TextView26"
+                android:layout_alignLeft="@+id/TextView27"
+                android:layout_toLeftOf="@+id/ImageButton01v"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/TextView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/TextView10b"
+                android:layout_alignBottom="@+id/TextView10b"
+                android:layout_marginRight="33dp"
+                android:layout_toLeftOf="@+id/ImageButton01v"
+                android:text="@string/fecha_inicio_oseltamivir"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:textStyle="normal|italic"
+                android:typeface="serif"
+                tools:ignore="TooManyViews" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeantib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/relativeLayout2"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape" >
+
+            <Spinner
+                android:id="@+id/Spinnervia"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/TextView31"
+                tools:ignore="TooManyViews" />
+
+            <TextView
+                android:id="@+id/TextView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/Spinnervia"
+                android:layout_alignParentLeft="true"
+                android:text="@string/v_a_de_administraci_n"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="normal|italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/TextView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TextView31"
+                android:text="@string/antibi_tico_nombre_"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#003574"
+                android:textSize="21sp"
+                android:textStyle="normal|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/EditText05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TextView28"
+                android:layout_toLeftOf="@+id/Spinnervia"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/EditText08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/EditText05"
+                android:layout_alignBottom="@+id/EditText05"
+                android:layout_alignLeft="@+id/TextView29"
+                android:layout_toLeftOf="@+id/boton3"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/editText32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/EditText08"
+                android:layout_alignBottom="@+id/EditText08"
+                android:layout_alignLeft="@+id/TextView30"
+                android:layout_alignRight="@+id/TextView30"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/EditText06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/EditText05"
+                android:layout_toLeftOf="@+id/Spinnervia"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/EditText07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/EditText06"
+                android:layout_below="@+id/EditText06"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/EditText066"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/EditText08"
+                android:layout_below="@+id/EditText05"
+                android:layout_toLeftOf="@+id/boton4"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/EditText077"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText32"
+                android:layout_alignRight="@+id/editText32"
+                android:layout_below="@+id/EditText08"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/EditText088"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/EditText066"
+                android:layout_below="@+id/EditText06"
+                android:layout_toLeftOf="@+id/boton5"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/TextView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/EditText08"
+                android:layout_alignLeft="@+id/Spinnervia"
+                android:layout_marginLeft="57dp"
+                android:text="@string/fecha_1era_dosis"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#003574"
+                android:textSize="21sp"
+                android:textStyle="normal|italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/TextView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/editText32"
+                android:layout_marginLeft="50dp"
+                android:layout_toRightOf="@+id/TextView29"
+                android:text="@string/fecha_ltima_dosis"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#003574"
+                android:textSize="21sp"
+                android:textStyle="normal|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/EditText09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/EditText077"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/EditText077"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/boton1abm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/EditText077"
+                android:layout_toRightOf="@+id/editText32"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <ImageButton
+                android:id="@+id/boton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/EditText077"
+                android:layout_toRightOf="@+id/EditText077"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <ImageButton
+                android:id="@+id/Iboton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/EditText09"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <ImageButton
+                android:id="@+id/boton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/EditText088"
+                android:layout_toRightOf="@+id/TextView29"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <ImageButton
+                android:id="@+id/boton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/EditText088"
+                android:layout_alignLeft="@+id/boton5"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <ImageButton
+                android:id="@+id/boton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/EditText066"
+                android:layout_alignLeft="@+id/boton4"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView02"
+            android:layout_below="@+id/tableLayout1"
+            android:layout_marginTop="37dp"
+            android:text="Factores de Riesgo"
+            android:textColor="#0e225f"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/TextView04"
+            android:layout_below="@+id/layantibs"
+            android:layout_marginTop="32dp"
+            android:text="Consumo actual de medicamentos"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#003574"
+            android:textSize="21sp"
+            android:textStyle="normal|bold|italic"
+            android:typeface="serif"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="25dp"
+            android:text="V. Antecedentes y Factores de Riesgo"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+        </ScrollView>

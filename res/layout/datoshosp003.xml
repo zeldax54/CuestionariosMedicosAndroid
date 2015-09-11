@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/RelativeLayout01"
+    android:layout_below="@+id/RelativeLayout01"
+    android:layout_marginTop="10dp"
+    android:scrollbarDefaultDelayBeforeFade="10000000000000000"
+    android:scrollbarFadeDuration="1000000000000000000"
+    tools:ignore="TooManyViews" >
+
+    <RelativeLayout
+        android:layout_width="1009dp"
+        android:layout_height="498dp"
+        android:layout_marginLeft="20dp" >
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Datos estadísticos y epidemiológicos hospitalarios "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            tools:ignore="HardcodedText" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true" />
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="64dp"
+                android:background="@drawable/shape" >
+
+                <TextView
+                    android:id="@+id/TextView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="30dp"
+                    android:text="Laboratorio"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/TextView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/TextView19"
+                    android:layout_below="@+id/TextView19"
+                    android:layout_marginTop="21dp"
+                    android:text="Hemocultivos/Líquido Preural"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/EditText13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/TextView18"
+                    android:layout_toLeftOf="@+id/EditText15"
+                    android:layout_toRightOf="@+id/TextView18"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/EditText12"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/TextView19"
+                    android:layout_alignRight="@+id/EditText13"
+                    android:layout_below="@+id/TextView17"
+                    android:layout_toRightOf="@+id/TextView19"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/EditText16"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/EditText12"
+                    android:layout_below="@+id/TextView22"
+                    android:layout_marginLeft="71dp"
+                    android:layout_toRightOf="@+id/TextView17"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/EditText15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/TextView18"
+                    android:layout_alignLeft="@+id/EditText16"
+                    android:layout_alignRight="@+id/EditText16"
+                    android:layout_below="@+id/EditText16"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/TextView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/TextView19"
+                    android:layout_alignLeft="@+id/EditText16"
+                    android:layout_marginLeft="95dp"
+                    android:text="%"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/TextView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/TextView19"
+                    android:layout_marginLeft="70dp"
+                    android:layout_toRightOf="@+id/TextView19"
+                    android:text="#"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/EditText01"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/TextView01"
+                    android:layout_toLeftOf="@+id/EditText15"
+                    android:layout_toRightOf="@+id/TextView18"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/EditText02"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/EditText01"
+                    android:layout_alignBottom="@+id/EditText01"
+                    android:layout_alignLeft="@+id/EditText15"
+                    android:layout_alignRight="@+id/EditText15"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/TextView01"
+                    android:layout_below="@+id/TextView01"
+                    android:layout_marginTop="30dp"
+                    android:text="Examen de LCR"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/EditText03"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/TextView02"
+                    android:layout_alignLeft="@+id/EditText01"
+                    android:layout_toLeftOf="@+id/EditText02"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/EditText04"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/EditText03"
+                    android:layout_alignBottom="@+id/EditText03"
+                    android:layout_alignLeft="@+id/EditText02"
+                    android:layout_alignRight="@+id/EditText02"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/TextView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/TextView21"
+                    android:layout_below="@+id/TextView21"
+                    android:layout_marginTop="23dp"
+                    android:text="# de muestras de laboratorio"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/TextView18"
+                    android:layout_below="@+id/TextView18"
+                    android:layout_marginTop="29dp"
+                    android:text="Muestras Respiratorias"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"
+                    tools:ignore="HardcodedText" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/EditText14"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/textView100"
+            android:ems="10"
+            android:hint="Observaciones Laboratorio"
+            android:inputType="textMultiLine"
+            android:textColorHint="@android:color/holo_blue_dark"
+            tools:ignore="HardcodedText" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativeLayout4"
+            android:layout_marginLeft="194dp"
+            android:text="Observaciones"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+    </ScrollView>

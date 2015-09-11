@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    >
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/SearchView02"
+            android:layout_marginTop="20dp" >
+
+        </ListView>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:text="@string/vizualizar_editar_eliminar_cuestionarios_busquedas"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="21sp"
+        android:textStyle="italic|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/SearchView02"
+        android:layout_below="@+id/searchView1t1"
+        android:text="Estadisticas Epidemiólogicas"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        tools:ignore="HardcodedText" />
+
+    <SearchView
+        android:id="@+id/SearchView02"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/searchView1t1"
+        android:layout_below="@+id/TextView03"
+        android:background="@drawable/shape"
+        android:inputType="text"
+        android:queryHint="Nombre del Hospital" >
+    </SearchView>
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/SearchView03"
+        android:layout_alignLeft="@+id/SearchView03"
+        android:text="Cuestionarios Estadísticos APS"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        tools:ignore="HardcodedText" />
+
+    <SearchView
+        android:id="@+id/searchView1t1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/shape"
+        android:inputType="text" >
+
+    </SearchView>
+
+    <SearchView
+        android:id="@+id/SearchView04"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listView1"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/SearchView03"
+        android:background="@drawable/shape"
+        android:inputType="text"
+        android:queryHint="Nombre del Hospital" >
+
+    </SearchView>
+
+    <SearchView
+        android:id="@+id/SearchView03"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listView1"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/SearchView02"
+        android:background="@drawable/shape"
+        android:inputType="text"
+        android:queryHint="Nombre del Hospital" >
+
+    </SearchView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/searchView1t1"
+        android:layout_below="@+id/TextView02"
+        android:text="ER o Meningitis Hospitalario o Resp en APS"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/SearchView04"
+        android:layout_alignLeft="@+id/SearchView04"
+        android:layout_marginLeft="22dp"
+        android:text="Cuestionario IPK"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        tools:ignore="HardcodedText" />
+
+    <SearchView
+        android:id="@+id/SearchView01"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView05"
+        android:layout_toRightOf="@+id/TextView04"
+        android:background="@drawable/shapeblue"
+        android:imeOptions="actionSearch"
+        android:inputType="date"
+        android:queryHint="Año-Mes-Dia" >
+    </SearchView>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignRight="@+id/SearchView01"
+        android:text="ER o Meningitis (Fecha Consulta)"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

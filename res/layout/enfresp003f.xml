@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/scrollView11"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/RelativeLayout01"
+     android:layout_below="@+id/RelativeLayout01"
+     android:layout_marginLeft="10dp"
+     android:layout_marginTop="10dp" 
+  
+     
+     android:scrollbarFadeDuration="1000000000000000000"
+     android:scrollbarDefaultDelayBeforeFade="10000000000000000">
+
+<RelativeLayout
+    android:layout_width="962dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RelativeLayout01"
+        android:layout_below="@+id/textView1"
+        android:text="@string/resultado"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0e225f"
+        android:textSize="21sp"
+        android:textStyle="normal|italic"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RelativeLayout01"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/RelativeLayout01"
+        android:text="@string/clasificaci_n_calidad_del_rx"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0e225f"
+        android:textSize="21sp"
+        android:textStyle="normal|italic"
+        android:typeface="serif" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_alignRight="@+id/TextView01"
+        android:layout_below="@+id/TextView01"
+        android:background="@android:color/holo_green_light" >
+
+        <Spinner
+            android:id="@+id/spinner11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/CheckBox03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout1"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="42dp"
+        android:text="@string/caso_probable_de_neumon_a_bacteriana"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView05"
+        android:layout_marginLeft="28dp"
+        android:alpha="1"
+        android:background="@drawable/shape" >
+
+        <CheckBox
+            android:id="@+id/CheckBox05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/CheckBox06"
+            android:layout_below="@+id/CheckBox06"
+            android:text="@string/derrame_pleural"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/CheckBox13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/CheckBox05"
+            android:layout_below="@+id/CheckBox05"
+            android:text="@string/broncograma_a_reo"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/CheckBox12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/CheckBox13"
+            android:layout_below="@+id/CheckBox13"
+            android:text="@string/infiltrado_intersticial"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/CheckBox06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consolidaci_n"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/CheckBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/CheckBox12"
+            android:layout_below="@+id/CheckBox12"
+            android:text="@string/empiema"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/CheckBox04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/CheckBox11"
+            android:layout_below="@+id/CheckBox11"
+            android:text="@string/atelectasia"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/EditText01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TextView04"
+            android:layout_below="@+id/CheckBox04"
+            android:layout_toRightOf="@+id/TextView04"
+            android:ems="10"
+            android:inputType="text"
+            android:textColorHint="#48187d"
+            android:textSize="21sp"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/CheckBox04"
+            android:layout_below="@+id/CheckBox04"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="26dp"
+            android:text="@string/otro"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView05"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:text="@string/v_resultados_de_radiolog_a"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="21sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+</RelativeLayout>
+
+</ScrollView>

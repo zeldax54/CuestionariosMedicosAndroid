@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewme2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:scrollbarDefaultDelayBeforeFade="10000000000000000"
+    android:scrollbarFadeDuration="1000000000000000000" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="445dp"
+    android:orientation="horizontal"
+    android:visibility="visible" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="IV. Caracterización clínica de la enfermendad neumococica invasiva"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="430dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_toRightOf="@+id/checkBox1"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/checkBox2"
+            android:text="I."
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"  />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox2"
+            android:layout_marginLeft="28dp"
+            android:layout_toRightOf="@+id/checkBox3"
+            android:text="Fiebre como única manifestación"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox3"
+            android:text="II."
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:text="Sepsis (presencia de dos o más de los siguientes signos)"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox5"
+            android:layout_below="@+id/textView2"
+            android:text="Hemocultivo positivo"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox3"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="36dp"
+            android:text="Bacteriemia"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox5"
+            android:text="distermia(temperatura>38 ºC o &lt;36 ºC)"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox6"
+            android:text="Taquicardia para la edad"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/checkBox7"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@+id/checkBox7"
+            android:text="Frecuencia respiratoria:"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText1"
+            android:layout_toLeftOf="@+id/textView6"
+            android:layout_toRightOf="@+id/checkBox8"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText2"
+            android:layout_alignParentRight="true"
+            android:text="/min"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_toLeftOf="@+id/textView6"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textColor="#ff0000"
+            android:textSize="21sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/checkBox8"
+            android:layout_below="@+id/checkBox5"
+            android:text="Temperatura:"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editText2"
+            android:text="Taquipnea para la edad"
+			android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/checkBox9"
+            android:layout_alignRight="@+id/checkBox5"
+            android:layout_toRightOf="@+id/checkBox10"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText3"
+            android:layout_toRightOf="@+id/editText3"
+            android:text="/min"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox9"
+            android:text="Alteraciones de la fórmula leucocitaria"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+<RelativeLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/checkBox11"
+    android:layout_toLeftOf="@+id/textView5"
+    android:layout_toRightOf="@+id/textView3"
+    android:background="@drawable/shape"
+    android:orientation="horizontal"
+    android:visibility="visible" >
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Por exceso (leucocitos)"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox12"
+        android:layout_alignBottom="@+id/checkBox12"
+        android:layout_marginLeft="77dp"
+        android:layout_toRightOf="@+id/checkBox12"
+        android:text="Por defecto (leucipenia)"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox12"
+        android:text="más del 10% de formas inmaduras"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+    
+</RelativeLayout>
+
+<TextView
+    android:id="@+id/textView7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/relativeLayout1"
+    android:layout_marginTop="27dp"
+    android:layout_toRightOf="@+id/textView2"
+    android:text="Signos y síntomas de:"
+    android:textSize="22sp"
+    android:textStyle="bold|italic"
+    android:typeface="serif" />
+
+<CheckBox
+    android:id="@+id/checkBox15"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/textView7"
+    android:layout_alignBottom="@+id/textView7"
+    android:layout_toRightOf="@+id/checkBox3"
+    android:text="Sepsis severa"
+    android:textSize="22sp"
+    android:textStyle="bold|italic"
+    android:typeface="serif" />
+
+<CheckBox
+    android:id="@+id/checkBox16"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/textView7"
+    android:layout_alignRight="@+id/editText2"
+    android:text="Shock septico"
+    android:textSize="22sp"
+    android:textStyle="bold|italic"
+    android:typeface="serif" />
+
+<TextView
+    android:id="@+id/checkBox10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/checkBox11"
+    android:layout_alignLeft="@+id/checkBox8"
+    android:text="Frecuencia cardiaca:"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textSize="22sp"
+    android:textStyle="bold|italic"
+    android:typeface="serif" />
+
+<TextView
+    android:id="@+id/textView5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/checkBox6"
+    android:layout_alignBottom="@+id/checkBox6"
+    android:layout_alignLeft="@+id/textView6"
+    android:text="ºC"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textSize="20sp"
+    android:textStyle="bold|italic"
+    android:typeface="serif" />
+
+</RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Sospecha de enfermedad neumocócica invasiva"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="21sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/botonflecha"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_alignRight="@+id/checkBox1"
+        android:layout_alignTop="@+id/relativeLayout1"
+        android:background="@android:color/transparent"
+        android:scaleType="matrix"
+        android:src="@drawable/llave" />
+
+</RelativeLayout>
+
+</ScrollView>

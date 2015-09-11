@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/scrollViewme1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="38dp"
+     android:layout_marginTop="10dp" 
+     android:scrollbarFadeDuration="1000000000000000000"
+     android:scrollbarDefaultDelayBeforeFade="10000000000000000">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="900dp"
+        android:layout_height="948dp"
+        android:layout_marginLeft="40dp"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="400dp"
+            android:layout_height="380dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/fiebre"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/checkBox2"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/editText1"
+                android:text="@string/_c"
+                android:textSize="25sp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/editText1"
+                android:layout_marginTop="10dp"
+                android:text="Rigidez de nuca"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox3"
+                android:text="Cefalea"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/checkBox4"
+                android:layout_alignBottom="@+id/checkBox4"
+                android:layout_alignLeft="@+id/editText1"
+                android:layout_marginLeft="45dp"
+                android:text="Vómitos"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox4"
+                android:text="Fotofobia"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/checkBox5"
+                android:layout_alignTop="@+id/checkBox6"
+                android:text="Convulsiones"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox6"
+                android:text="Otros signos meníngeos"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox8"
+                android:text="Alteraciones de la conciencia"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox9"
+                android:text="Petequias o púrpuras"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox10"
+                android:text="Trastornos de conducta"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/edit"
+                android:layout_alignLeft="@+id/editText1"
+                android:layout_alignRight="@+id/checkBox7"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" >
+
+              
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/checkBox11"
+                android:layout_toRightOf="@+id/checkBox4"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="#ff0000"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox11"
+                android:layout_marginTop="21dp"
+                android:layout_toLeftOf="@+id/editText2"
+                android:text="Otras"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="400dp"
+            android:layout_height="320dp"
+            android:layout_alignTop="@+id/relativeLayout1"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@+id/relativeLayout1"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Menor de 1 año"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:text="Abombamiento de fontanela"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox13"
+                android:text="Convulsiones"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox14"
+                android:text="Letargia"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox15"
+                android:text="Irritabilidad sin otra justificación o causa clínica"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/checkBox17"
+                android:layout_alignRight="@+id/checkBox13"
+                android:layout_toRightOf="@+id/checkBox17"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/checkBox17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox16"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="25dp"
+                android:layout_toLeftOf="@+id/textView3"
+                android:text="Otras"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutme"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_marginTop="24dp"
+            android:layout_toLeftOf="@+id/relativeLayout2"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Líquido Cefalorraquídeo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView4"
+                android:text="Turbidez"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox18"
+                android:text="Hipertensión"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox19"
+                android:text="Disminución de la fluidez"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox20"
+                android:text="Pleocitosis: > a 9 por mm3 con predominio de neutrófilos"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox21"
+                android:text="Proteinorraquia: > 99 mg/dl"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox22"
+                android:text="Hipoglicorraquia:&lt;40 mg/dl"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/checkBox24"
+                android:layout_alignRight="@+id/checkBox20"
+                android:layout_toRightOf="@+id/checkBox24"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/checkBox24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/checkBox23"
+                android:layout_below="@+id/checkBox23"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Otras"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutme2"
+            android:layout_width="400dp"
+            android:layout_height="330dp"
+            android:layout_alignLeft="@+id/relativeLayout2"
+            android:layout_alignTop="@+id/relativeLayoutme"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Antecedentes Epidemiológicos"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView5"
+                android:text="Contacto de un caso previo"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox25"
+                android:text="Internamiento"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox26"
+                android:text="Hacinamiento"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/checkBox28"
+                android:layout_alignRight="@+id/textView5"
+                android:layout_below="@+id/checkBox27"
+                android:layout_toRightOf="@+id/checkBox28"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/checkBox28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_centerVertical="true"
+                android:text="Otras"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+        </RelativeLayout>
+   
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="III. Sospecha de meningitis bacteriana u otra causa"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_centerHorizontal="true"
+        android:text="Caso sospechoso de meningoencefalitis bacteriana"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.neumocuest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+   
+  
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+           <activity
+            android:name="com.app.neumocuest.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="Cuestionarios"
+            android:label="Seleccion de Cuestionarios" >
+            <intent-filter>
+                <action android:name="com.app.neumocuest.CUESTIONARIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+        
+       
+        
+        <activity
+            android:name="EnfRespCont"
+            android:label="" >
+            <intent-filter>
+                <action android:name="com.app.neumocuest.ENFRESPPRINC" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>       
+         <activity
+            android:name="MeningCont"
+            android:label="" >
+            <intent-filter>
+                <action android:name="com.app.neumocuest.MENINGPRINC" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+        
+        <activity
+            android:name="Datos"
+            android:label="Manejo de Datos Guardados sea Cuidadoso!" >
+            <intent-filter>
+                <action android:name="com.app.neumocuestl.DATOS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>   
+            
+            </activity>
+       
+         
+         
+         
+         <activity
+            android:name="Buscarsql"
+            android:label="" >
+            <intent-filter>
+                <action android:name="com.app.neumocuest.BUSCARSQL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="EnfRespShow"
+            android:label="Modo Edicion de Datos. Sea cuidadoso!" >
+            <intent-filter>
+                <action android:name="com.app.neumocuest.ENFRESPSHOW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="DatosHosp"
+            android:label="" >
+            <intent-filter>
+                <action android:name="com.app.neumocuest.DATOSHOSP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="DatosAPS"
+            android:label="" >
+            <intent-filter>
+                <action android:name="com.app.neumocuest.DATOSAPS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="IPKCont"
+            android:label="" >
+            <intent-filter>
+                <action android:name="com.app.neumocuest.IPKCONT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="APSCont"
+            android:label="" >
+            <intent-filter>
+                <action android:name="com.app.neumocuest.APSCONT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+    
+
+</manifest>

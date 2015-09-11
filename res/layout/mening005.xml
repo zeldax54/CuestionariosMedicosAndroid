@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+	android:id="@+id/scrollViewmeffl"
+	android:layout_marginLeft="25dp"
+    android:layout_marginTop="10dp" 
+    android:scrollbarFadeDuration="1000000000000000000"
+    android:scrollbarDefaultDelayBeforeFade="10000000000000000">
+
+<RelativeLayout
+    android:layout_width="983dp"
+    android:layout_height="1274dp"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="V. Laboratorio"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+  <RelativeLayout
+      android:id="@+id/relativeLayout1"
+      android:layout_width="983dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/textView1"
+      android:layout_marginLeft="21dp"
+      android:orientation="vertical"
+      android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/textVietm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Toma de muestras:"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textVietm"
+            android:layout_marginLeft="26dp"
+            android:text="Examen del líquido cefalorraquídeo (LCR)"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutcf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox1"
+            android:layout_below="@+id/checkBox1"
+            android:layout_marginLeft="28dp"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="Pruebas Directas"
+                android:textSize="21sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TextViewfe"
+                android:text="Cultivo"
+                android:textSize="21sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/TextViewfe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="62dp"
+                android:layout_toRightOf="@+id/checkBox2"
+                android:text="@string/fecha"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="21sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/EditTexfee"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/TextViewfe"
+                android:layout_toRightOf="@+id/TextViewfe"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/ImageButtonfe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/EditTexfee"
+                android:layout_toRightOf="@+id/EditTexfee"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayouaisl"
+        android:layout_width="950dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout1"
+        android:layout_below="@+id/relativeLayouresult"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="33dp"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Aislamiento"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <RelativeLayout
+            android:id="@+id/relativeai"
+            android:layout_width="935dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/fondodeg"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView3"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView3"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/checkBox17"
+                android:layout_marginLeft="46dp"
+                android:layout_toRightOf="@+id/checkBox17"
+                android:text="Serogrupo:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView3"
+                android:layout_toRightOf="@+id/editText1"
+                android:text="Serotipo:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/editText4"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView4"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="10dp"
+                android:text="Subtipo:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView5"
+                android:layout_alignLeft="@+id/editText1"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView5"
+                android:layout_alignBottom="@+id/textView5"
+                android:layout_alignLeft="@+id/textView4"
+                android:text="Inmunotipo:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText3"
+                android:layout_alignBottom="@+id/editText3"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/textView6"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/checkBox18"
+                android:layout_alignBottom="@+id/checkBox18"
+                android:layout_alignLeft="@+id/textView5"
+                android:text="Biotipo:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView7"
+                android:layout_alignLeft="@+id/editText3"
+                android:layout_below="@+id/editText3"
+                android:layout_toLeftOf="@+id/textView8"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView7"
+                android:layout_alignLeft="@+id/editText2"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/editText5"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/checkBox19"
+                android:layout_alignBottom="@+id/checkBox19"
+                android:layout_alignLeft="@+id/textView7"
+                android:text="Serotipo:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView9"
+                android:layout_alignLeft="@+id/editText5"
+                android:layout_below="@+id/editText5"
+                android:layout_toLeftOf="@+id/textView8"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView5"
+                android:layout_marginTop="21dp"
+                android:text="H. Influenzae"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/checkBox20"
+                android:layout_below="@+id/editText7"
+                android:layout_toLeftOf="@+id/textView8"
+                android:layout_toRightOf="@+id/checkBox20"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox20"
+                android:layout_marginTop="10dp"
+                android:text="Ninguna"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText8"
+                android:layout_alignRight="@+id/textView7"
+                android:layout_below="@+id/checkBox21"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="24dp" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="91dp"
+                    android:text="@string/fecha"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="21sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif" />
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/ImageButton01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/editText8"
+                android:layout_marginRight="86dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <EditText
+                android:id="@+id/EditText01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/ImageButton01"
+                android:layout_toRightOf="@+id/checkBox17"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" >
+
+            
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/checkBox19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox18"
+                android:layout_marginTop="22dp"
+                android:text="S. Neumoniae"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/checkBox20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox19"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/relativeLayout4"
+                android:text="Otra"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/relativeLayout4"
+                android:layout_marginTop="20dp"
+                android:text="N. Meninguitis (NM)"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/checkBox19"
+                android:layout_toRightOf="@+id/editText3"
+                android:text="Subtipo:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayousuc"
+        android:layout_width="950dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout1"
+        android:layout_below="@+id/relativeLayouaisl"
+        android:layout_marginTop="33dp"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Susceptibilidad antimicrobiana:"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <RelativeLayout
+            android:id="@+id/relatsusc"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true" >
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView18"
+                android:layout_toRightOf="@+id/textView18"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/relativeLayout2"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="250dp"
+                android:text="Metodo utilizado:"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editText13"
+                android:layout_toRightOf="@+id/editText13"
+                android:text="@string/fecha"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="21sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/ImageButton02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/TextView02"
+                android:layout_toRightOf="@+id/EditText02"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <EditText
+                android:id="@+id/EditText02"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ImageButton02"
+                android:layout_toRightOf="@+id/TextView02"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/EditText02"
+                android:layout_alignLeft="@+id/textView18"
+                android:layout_marginBottom="74dp"
+                android:layout_toLeftOf="@+id/EditText02"
+                android:ems="10"
+                android:hint="Especifique Antibioticos"
+                android:inputType="textMultiLine"
+                android:textColorHint="@android:color/holo_blue_dark"
+                android:textSize="21sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/relativeLayout2"
+                android:layout_toLeftOf="@+id/ImageButton02"
+                android:background="@android:color/transparent"
+                android:src="@drawable/clickhelpc" android:contentDescription="TODO"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/TextViewsh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/checkBox4"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginLeft="33dp"
+        android:text="@string/fecha"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="21sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/EditTexsh"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextViewsh"
+        android:layout_toRightOf="@+id/TextViewsh"
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="#48187d"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayouresult"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayouaisl"
+        android:layout_below="@+id/checkBox4"
+        android:layout_marginTop="33dp"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/textViere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Resultados:"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutr"
+            android:layout_width="735dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textViere"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/checkBox5"
+                android:layout_below="@+id/checkBox5"
+                android:text="Examen directo de Petequias"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/checkBox7"
+                android:layout_alignBottom="@+id/checkBox7"
+                android:layout_alignLeft="@+id/checkBox6"
+                android:text="Positivo"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/checkBox7"
+                android:layout_below="@+id/checkBox7"
+                android:text="Cultivo del LCR"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/checkBox9"
+                android:layout_alignBottom="@+id/checkBox9"
+                android:layout_alignLeft="@+id/checkBox8"
+                android:text="Positivo"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/checkBox9"
+                android:layout_below="@+id/checkBox9"
+                android:text="Hemocultivo"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/checkBox10"
+                android:layout_below="@+id/checkBox10"
+                android:text="Positivo"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/checkBox13"
+                android:layout_alignBottom="@+id/checkBox13"
+                android:layout_alignLeft="@+id/checkBox12"
+                android:text="Positivo"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/checkBox13"
+                android:layout_below="@+id/checkBox13"
+                android:text="Latex"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/checkBox14"
+                android:layout_below="@+id/checkBox14"
+                android:text="Positivo"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/checkBox11"
+                android:layout_below="@+id/checkBox11"
+                android:text="Cultivo de petequías"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/checkBox8"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="34dp"
+                android:text="Positivo"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="Examen directo del (L.CR)"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="28dp"
+        android:layout_toLeftOf="@+id/TextViewsh"
+        android:text="Sangre para hemocultivo"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/ImageButtonsh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayouresult"
+        android:layout_toRightOf="@+id/EditTexsh"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/fechaclick" />
+
+</RelativeLayout>
+
+  </ScrollView>

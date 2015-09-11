@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/scrollView11"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/RelativeLayout01"
+     android:layout_below="@+id/RelativeLayout01"
+     android:layout_marginLeft="38dp"
+     android:layout_marginTop="10dp"
+     android:scrollbarDefaultDelayBeforeFade="10000000000000000"
+     android:scrollbarFadeDuration="1000000000000000000" >
+
+<RelativeLayout
+    android:layout_width="966dp"
+    android:layout_height="468dp"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/EditText06f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView14"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/TextView14"
+        android:layout_marginTop="67dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#48187d"
+        android:textSize="22sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/relativeLayouav"
+        android:layout_below="@+id/EditText06f"
+        android:layout_marginTop="76dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/canc" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/EditText06f"
+        android:layout_marginLeft="70dp"
+        android:text="@string/guardar_cuestionario"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginLeft="37dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/insertc" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayouav"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginLeft="124dp"
+        android:text="@string/descartar_cambios_y_salir"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/TextView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="32dp"
+        android:text="Nombre y Apellidos del responsable que completa el cuestionario"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="21sp"
+        android:textStyle="normal|italic"
+        android:typeface="serif" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayouav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/EditText06f"
+        android:layout_below="@+id/EditText06f"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="@drawable/shapeblue" >
+
+        <ImageButton
+            android:id="@+id/ImageButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TextView02"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/fechaclick" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Fecha:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/EditText02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/TextView02"
+            android:layout_toLeftOf="@+id/ImageButton02"
+            android:layout_toRightOf="@+id/TextView02"
+            android:ems="10"
+            android:inputType="date"
+            android:textColor="#48187d"
+            android:textSize="21sp"
+            android:textStyle="italic"
+            android:typeface="serif" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/ImageButton01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/insertc" />
+
+</RelativeLayout>
+</ScrollView>

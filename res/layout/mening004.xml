@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollViewmeffr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="10dp"
+    android:scrollbarDefaultDelayBeforeFade="10000000000000000"
+    android:scrollbarFadeDuration="1000000000000000000" >
+
+    <RelativeLayout
+        android:layout_width="983dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/textfr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:text="VI. Enfermedades crónicas y factores de riesgo"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textfr"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="30dp"
+            android:text="Antecedentes de enfermedad crónica"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignLeft="@+id/checkBox1"
+            android:layout_alignRight="@+id/textfr"
+            android:layout_below="@+id/checkBox1"
+            android:ems="10"
+            android:hint="                                           Especifique"
+            android:inputType="textMultiLine"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:textSize="21sp"
+            tools:ignore="HardcodedText" >
+
+            <requestFocus />
+        </EditText>
+
+        <RelativeLayout
+            android:id="@+id/lay0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_marginTop="320dp"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView13" />
+
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/personas_dormitorio_en_la_casa"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lay0"
+            android:layout_below="@+id/lay0"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView11" />
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/convivientes_en_la_casa"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lay"
+            android:layout_below="@+id/lay"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView03" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/fumadores_en_casa"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout01"
+            android:layout_below="@+id/RelativeLayout01"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView05" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/asistencia_a_c_rculo_infantil_o_casa_cuidadora"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout02"
+            android:layout_below="@+id/RelativeLayout02"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView06" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/lactancia_materna_durante_el_primer_a_o_de_vida"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout03"
+            android:layout_below="@+id/RelativeLayout03"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView07" />
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/bajo_peso_al_nacer"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout04"
+            android:layout_below="@+id/RelativeLayout04"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView16" />
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/madre_vacunada_contra_influenza_en_el_embarazo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout08"
+            android:layout_below="@+id/RelativeLayout08"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView14" />
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/antecedentes_de_rinitis_al_rgica"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout06"
+            android:layout_below="@+id/RelativeLayout06"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView12" />
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/episodios_ira_alta_a_repetici_n_en_el_ltimo_a_o"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="22dp"
+            android:text="Factores de Riesgo"
+            android:textColor="#0e225f"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            tools:ignore="HardcodedText" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout05"
+            android:layout_below="@+id/RelativeLayout05"
+            android:background="@android:color/holo_green_light" >
+
+            <Spinner
+                android:id="@+id/Spinner09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView15" />
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/consumo_de_antibi_ticos_en_los_ltimos_dos_meses"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layantibs"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignLeft="@+id/RelativeLayout07"
+            android:layout_alignRight="@+id/editText2"
+            android:layout_below="@+id/RelativeLayout07"
+            android:background="@android:color/holo_blue_light" >
+
+            <EditText
+                android:id="@+id/EditText02"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/TextView21"
+                android:ems="10"
+                android:hint="                        Nombre de Antibiótico(s) :Dias de Consumo"
+                android:inputType="textMultiLine"
+                android:textColorHint="@android:color/background_light"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="130dp"
+                android:text="Antibioticos-Dias de Consumo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

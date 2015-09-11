@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:clickable="false"
+    tools:context="com.example.neumocuest.MainActivity"
+    tools:ignore="MergeRootFrame,HardcodedText" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="27dp"
+        android:text="@string/proyecto_neumococo_2014_biocubafarma_todos_los_derechos_reservados_"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="15sp"
+        android:textStyle="italic|bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/backgext" />
+
+    <ImageButton
+        android:id="@+id/boton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_marginLeft="71dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:scaleType="matrix"
+        android:src="@drawable/backg" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_marginRight="59dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/backgraf" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView3"
+        android:text="Protocolo de Vigilancia Centinela. Automatización  de Cuestionarios"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="15sp"
+        android:textStyle="italic|bold" />
+
+</RelativeLayout>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/RelativeLayout01"
+    android:layout_below="@+id/RelativeLayout01"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:fadingEdge="vertical"
+    android:scrollbarDefaultDelayBeforeFade="10000000000000000"
+    android:scrollbarFadeDuration="1000000000000000000"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="572dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout02"
+            android:layout_below="@+id/RelativeLayout02"
+            android:layout_marginTop="42dp"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/CheckBox03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="@string/anti_meningoc_cica"
+                android:textSize="21sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/CheckBox04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="@string/hib_y_dpt_reactivaci_n_"
+                android:textSize="21sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/CheckBox05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="@string/anti_neumoc_cica"
+                android:textSize="21sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/CheckBox06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/anti_influenza"
+                android:textSize="21sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/TextView07"
+            android:layout_alignBottom="@+id/TextView07"
+            android:layout_alignRight="@+id/RelativeLayout02"
+            android:text="@string/fecha_3ra_dosis"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#003574"
+            android:textSize="21sp"
+            android:textStyle="normal|italic"
+            android:typeface="serif" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="50dp"
+            android:background="@android:color/holo_green_light" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView03"
+            android:layout_alignRight="@+id/TextView06"
+            android:layout_below="@+id/TextView07"
+            android:background="@android:color/holo_green_light" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/boton1v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <EditText
+                android:id="@+id/EditText01"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/boton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <EditText
+                android:id="@+id/EditText02"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/boton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RelativeLayout02"
+            android:layout_toRightOf="@+id/linearLayout3"
+            android:text="@string/fecha_1ra_dosis"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#003574"
+            android:textSize="21sp"
+            android:textStyle="normal|italic"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/linearLayout3"
+            android:layout_alignLeft="@+id/linearLayout2"
+            android:layout_alignRight="@+id/linearLayout6"
+            android:background="@android:color/holo_green_light" >
+
+            <EditText
+                android:id="@+id/EditText07"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/boton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <EditText
+                android:id="@+id/EditText08"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/boton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <EditText
+                android:id="@+id/EditText12"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/boton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/CheckBox02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout3"
+            android:layout_alignTop="@+id/linearLayout4"
+            android:text="@string/vacuna_pentavalente"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/linearLayout4"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_marginTop="32dp"
+            android:layout_toRightOf="@+id/linearLayout3"
+            android:background="@android:color/holo_green_light" >
+
+            <EditText
+                android:id="@+id/EditText03"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.43"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="none"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/ImageButton03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <EditText
+                android:id="@+id/EditText04"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.71"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="none"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/ImageButton02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <EditText
+                android:id="@+id/EditText05"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.91"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="none"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/ImageButton01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout5"
+            android:layout_marginTop="43dp"
+            android:layout_toLeftOf="@+id/TextView07"
+            android:layout_toRightOf="@+id/linearLayout3"
+            android:background="@android:color/holo_green_light" >
+
+            <EditText
+                android:id="@+id/EditText06"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/boton4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout1"
+            android:layout_alignLeft="@+id/linearLayout2"
+            android:layout_alignRight="@+id/linearLayout5"
+            android:layout_marginBottom="22dp"
+            android:background="@android:color/holo_green_light" >
+
+            <EditText
+                android:id="@+id/EditText09"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/boton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <EditText
+                android:id="@+id/EditText10"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/boton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+
+            <EditText
+                android:id="@+id/EditText11"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <ImageButton
+                android:id="@+id/boton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="900dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shape" >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="29dp"
+                android:text="@string/carn_de_vacunaci_n"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/background_dark"
+                android:textSize="21sp"
+                android:textStyle="normal|italic"
+                android:typeface="serif" />
+
+            <Spinner
+                android:id="@+id/spinner11"
+                style="@android:style/Theme.InputMethod"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/TextView05" />
+
+            <CheckBox
+                android:id="@+id/CheckBox01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="64dp"
+                android:layout_toRightOf="@+id/spinner11"
+                android:text="@string/vacunaci_n_no_precisada"
+                android:textSize="21sp"
+                android:textStyle="normal|italic"
+                android:typeface="serif" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView04"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginLeft="40dp"
+            android:text="Vacunas"
+            android:textColor="#0e225f"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout02"
+            android:layout_alignParentTop="true"
+            android:text="V. Antecedentes y Factores de Riesgo"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/TextView03"
+            android:layout_alignBottom="@+id/TextView03"
+            android:layout_marginRight="67dp"
+            android:layout_toLeftOf="@+id/TextView06"
+            android:text="@string/fecha_2da_dosis"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#003574"
+            android:textSize="21sp"
+            android:textStyle="normal|italic"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+</ScrollView>

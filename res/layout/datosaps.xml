@@ -1,0 +1,1944 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/tools"
+     android:id="@+id/scrollView101"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="38dp"
+     android:layout_marginTop="10dp"
+     android:scrollbarDefaultDelayBeforeFade="10000000000000000"
+     android:scrollbarFadeDuration="1000000000000000000"
+     app:ignore="TooManyViews" >
+
+<RelativeLayout
+    android:layout_width="978dp"
+    android:layout_height="1539dp"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="vertical"
+    android:visibility="visible" >
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="195dp"
+        android:text="Datos estadísticos y epidemiológicos de la APS"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:ignore="HardcodedText" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoucr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView100"
+        android:layout_marginRight="61dp"
+        android:background="@drawable/shape" >
+
+        <EditText
+            android:id="@+id/EditText04"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/TextView02"
+            android:ems="10"
+            android:inputType="date"
+            android:textColor="#48187d"
+            android:textSize="21sp"
+            android:textStyle="italic"
+            android:typeface="serif" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Fecha:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <ImageButton
+            android:id="@+id/ImageButton04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/EditText04"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/fechaclick" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView100"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#48187d"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:text="@string/no_semana_estad_stica_epidemiol_gica_"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_marginLeft="34dp"
+        android:layout_toRightOf="@+id/textView6"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#48187d"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_alignParentLeft="true"
+        android:text="Nombre de Area de Salud"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/editText2"
+        android:text="CMF"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayoucr"
+        android:layout_below="@+id/relativeLayoucr"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#48187d"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/shape" >
+
+        <EditText
+            android:id="@+id/EditText17"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/TextView21"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/TextView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/EditText17"
+            android:layout_alignParentLeft="true"
+            android:text="# Total de Atenciones"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView19"
+            android:layout_below="@+id/TextView19"
+            android:layout_marginTop="21dp"
+            android:text="Femenino"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TextView18"
+            android:layout_alignRight="@+id/EditText12"
+            android:layout_toRightOf="@+id/TextView19"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/TextView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView21"
+            android:layout_below="@+id/TextView21"
+            android:layout_marginLeft="25dp"
+            android:text="Sexo"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView18"
+            android:layout_alignLeft="@+id/EditText17"
+            android:layout_alignRight="@+id/EditText17"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/TextView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView21"
+            android:layout_below="@+id/TextView16"
+            android:layout_marginTop="10dp"
+            android:text="Masculino"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView19"
+            android:layout_alignLeft="@+id/EditText16"
+            android:layout_marginLeft="34dp"
+            android:text="%"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/EditText13"
+            android:layout_alignBottom="@+id/EditText13"
+            android:layout_alignLeft="@+id/EditText16"
+            android:layout_alignRight="@+id/EditText16"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/TextView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView19"
+            android:layout_centerHorizontal="true"
+            android:text="#"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText12"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView18"
+            android:layout_toLeftOf="@+id/EditText16"
+            android:layout_toRightOf="@+id/TextView19"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+    </RelativeLayout>
+
+  
+
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/RelativeLayout01"
+        android:layout_alignBottom="@+id/RelativeLayout01"
+        android:layout_toLeftOf="@+id/TextView01"
+        android:text="Observaciones"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:ignore="HardcodedText" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/RelativeLayout01"
+        android:layout_below="@+id/RelativeLayout01"
+        android:background="@drawable/shape" >
+
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Grupos Edad"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView03"
+            android:layout_below="@+id/TextView03"
+            android:layout_marginTop="21dp"
+            android:text="6-11 m"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TextView06"
+            android:layout_alignLeft="@+id/EditText03"
+            android:layout_alignRight="@+id/EditText03"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView09"
+            android:layout_below="@+id/TextView09"
+            android:layout_marginTop="10dp"
+            android:text="0-5 m"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView03"
+            android:layout_alignLeft="@+id/EditText07"
+            android:layout_marginLeft="34dp"
+            android:text="%"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/EditText02"
+            android:layout_alignBottom="@+id/EditText02"
+            android:layout_alignLeft="@+id/EditText07"
+            android:layout_alignRight="@+id/EditText07"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView03"
+            android:layout_centerHorizontal="true"
+            android:text="#"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText03"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView06"
+            android:layout_toLeftOf="@+id/TextView07"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView06"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@+id/TextView04"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView06"
+            android:layout_below="@+id/TextView06" >
+
+            <TextView
+                android:id="@+id/TextView066"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                android:text="12-23 m  "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText08"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText09"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_marginTop="28dp"
+            android:text="2-4 a"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText10"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/TextView05"
+            android:layout_alignLeft="@+id/EditText02"
+            android:layout_alignRight="@+id/EditText02"
+            android:layout_below="@+id/linearLayout1"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText11"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/EditText10"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/EditText10"
+            android:layout_toRightOf="@+id/EditText10"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/TextView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView05"
+            android:layout_marginTop="24dp"
+            android:text="5-9 a"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText14"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/TextView10"
+            android:layout_alignLeft="@+id/EditText02"
+            android:layout_below="@+id/EditText10"
+            android:layout_toLeftOf="@+id/TextView07"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText18"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/EditText14"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/EditText14"
+            android:layout_toRightOf="@+id/EditText02"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/TextView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView10"
+            android:layout_centerVertical="true"
+            android:text="10-14 a"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText19"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/TextView11"
+            android:layout_alignLeft="@+id/EditText02"
+            android:layout_below="@+id/EditText14"
+            android:layout_toLeftOf="@+id/TextView07"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText20"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/EditText19"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/EditText19"
+            android:layout_toRightOf="@+id/EditText02"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/TextView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView11"
+            android:layout_below="@+id/TextView11"
+            android:layout_marginTop="25dp"
+            android:text="15-18 a"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText21"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/TextView12"
+            android:layout_alignLeft="@+id/EditText02"
+            android:layout_below="@+id/EditText19"
+            android:layout_toLeftOf="@+id/TextView07"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText22"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/EditText21"
+            android:layout_alignLeft="@+id/EditText06"
+            android:layout_alignRight="@+id/EditText06"
+            android:layout_alignTop="@+id/EditText21"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/TextView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView12"
+            android:layout_below="@+id/TextView12"
+            android:layout_marginTop="28dp"
+            android:text="18-24 a"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView13"
+            android:layout_below="@+id/TextView13"
+            android:layout_marginTop="22dp"
+            android:text="25-29 a"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView14"
+            android:layout_below="@+id/TextView14"
+            android:layout_marginTop="25dp"
+            android:text="50-60 a"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView15"
+            android:layout_below="@+id/TextView15"
+            android:layout_marginTop="21dp"
+            android:text="70 y mas"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText23"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/TextView13"
+            android:layout_alignLeft="@+id/EditText02"
+            android:layout_below="@+id/EditText21"
+            android:layout_toLeftOf="@+id/TextView07"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText24"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/TextView14"
+            android:layout_alignRight="@+id/EditText06"
+            android:layout_below="@+id/EditText22"
+            android:layout_toRightOf="@+id/EditText02"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText25"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/TextView15"
+            android:layout_alignLeft="@+id/EditText02"
+            android:layout_below="@+id/EditText23"
+            android:layout_toLeftOf="@+id/TextView07"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText26"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/EditText25"
+            android:layout_alignRight="@+id/EditText06"
+            android:layout_below="@+id/EditText24"
+            android:layout_toRightOf="@+id/EditText02"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText27"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/TextView15"
+            android:layout_alignLeft="@+id/EditText02"
+            android:layout_below="@+id/EditText25"
+            android:layout_toLeftOf="@+id/TextView07"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText28"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/TextView20"
+            android:layout_alignLeft="@+id/EditText06"
+            android:layout_alignRight="@+id/EditText06"
+            android:layout_below="@+id/EditText26"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText29"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/TextView20"
+            android:layout_alignLeft="@+id/EditText02"
+            android:layout_below="@+id/EditText27"
+            android:layout_toLeftOf="@+id/TextView07"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText30"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/EditText29"
+            android:layout_alignRight="@+id/EditText06"
+            android:layout_alignTop="@+id/EditText29"
+            android:layout_toRightOf="@+id/EditText02"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout03"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/RelativeLayout02"
+        android:layout_below="@+id/RelativeLayout02"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/shape" >
+
+        <EditText
+            android:id="@+id/EditText33"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/TextView28"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/TextView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/EditText33"
+            android:layout_alignParentLeft="true"
+            android:text="Laboratorio"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TextView26"
+            android:layout_alignLeft="@+id/EditText33"
+            android:layout_alignRight="@+id/EditText32"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/EditText32"
+            android:layout_below="@+id/TextView27"
+            android:layout_toRightOf="@+id/EditText33"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/EditText31"
+            android:layout_alignBottom="@+id/EditText31"
+            android:layout_alignLeft="@+id/EditText35"
+            android:layout_alignRight="@+id/EditText35"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText32"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/EditText33"
+            android:layout_below="@+id/TextView24"
+            android:layout_toRightOf="@+id/TextView26"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/TextView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView28"
+            android:layout_below="@+id/EditText33"
+            android:text="Muestras Respiratorias"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView25"
+            android:layout_centerHorizontal="true"
+            android:text="##"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/EditText35"
+            android:layout_below="@+id/TextView25"
+            android:text="%%"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/EditText33"
+            android:text="Bacterianas"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/EditText35"
+            android:layout_alignBottom="@+id/EditText35"
+            android:layout_alignLeft="@+id/TextView26"
+            android:text="Virales"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+    </RelativeLayout>
+
+    
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="978dp"
+        android:layout_height="1257dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/TextView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="195dp"
+            android:text="Datos estadísticos y epidemiológicos de la APS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            app:ignore="HardcodedText" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/EditText67"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/TextView32"
+            android:layout_marginRight="61dp"
+            android:background="@drawable/shape" >
+
+            <EditText
+                android:id="@+id/EditText57"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/TextView53"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#48187d"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                android:typeface="serif" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/TextView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="Fecha:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="21sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/ImageButton01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/EditText57"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fechaclick" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/EditText67"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView32"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#48187d"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/TextView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/EditText67"
+            android:layout_alignBottom="@+id/EditText67"
+            android:layout_alignParentLeft="true"
+            android:text="@string/no_semana_estad_stica_epidemiol_gica_"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/EditText51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EditText67"
+            android:layout_marginLeft="34dp"
+            android:layout_toRightOf="@+id/TextView45"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="#48187d"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/EditText51"
+            android:layout_alignParentLeft="true"
+            android:text="Nombre de Area de Salud"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/EditText51"
+            android:layout_marginLeft="22dp"
+            android:layout_toRightOf="@+id/EditText67"
+            android:text="CMF"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/EditText70"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RelativeLayout07"
+            android:layout_below="@+id/RelativeLayout07"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="#48187d"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout05"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/EditText51"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/shape" >
+
+            <EditText
+                android:id="@+id/EditText44"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/TextView44"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/EditText44"
+                android:layout_alignParentLeft="true"
+                android:text="# Total de Atenciones"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView51"
+                android:layout_below="@+id/TextView51"
+                android:layout_marginTop="21dp"
+                android:text="Femenino"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/TextView47"
+                android:layout_alignRight="@+id/EditText55"
+                android:layout_toRightOf="@+id/TextView51"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/TextView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView44"
+                android:layout_below="@+id/TextView44"
+                android:layout_marginLeft="25dp"
+                android:text="Sexo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextView47"
+                android:layout_alignLeft="@+id/EditText44"
+                android:layout_alignRight="@+id/EditText44"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/TextView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView44"
+                android:layout_below="@+id/TextView42"
+                android:layout_marginTop="10dp"
+                android:text="Masculino"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextView51"
+                android:layout_alignLeft="@+id/EditText50"
+                android:layout_marginLeft="34dp"
+                android:text="%"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/EditText42"
+                android:layout_alignBottom="@+id/EditText42"
+                android:layout_alignLeft="@+id/EditText50"
+                android:layout_alignRight="@+id/EditText50"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/TextView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextView51"
+                android:layout_centerHorizontal="true"
+                android:text="#"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText55"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextView47"
+                android:layout_toLeftOf="@+id/EditText50"
+                android:layout_toRightOf="@+id/TextView51"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/TextView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/RelativeLayout05"
+            android:layout_alignBottom="@+id/RelativeLayout05"
+            android:layout_toLeftOf="@+id/TextView46"
+            android:text="Observaciones"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:ignore="HardcodedText" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout06"
+            android:layout_width="wrap_content"
+            android:layout_height="600dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/RelativeLayout05"
+            android:layout_below="@+id/RelativeLayout05"
+            android:background="@drawable/shape" >
+
+            <TextView
+                android:id="@+id/TextView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Grupos Edad"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView31"
+                android:layout_below="@+id/TextView31"
+                android:layout_marginTop="21dp"
+                android:text="6-11 m"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/TextView38"
+                android:layout_alignLeft="@+id/EditText40"
+                android:layout_alignRight="@+id/EditText40"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/TextView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView39"
+                android:layout_below="@+id/TextView39"
+                android:layout_marginTop="10dp"
+                android:text="0-5 m"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextView31"
+                android:layout_alignLeft="@+id/EditText66"
+                android:layout_marginLeft="34dp"
+                android:text="%"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/EditText49"
+                android:layout_alignBottom="@+id/EditText49"
+                android:layout_alignLeft="@+id/EditText66"
+                android:layout_alignRight="@+id/EditText66"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/TextView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextView31"
+                android:layout_centerHorizontal="true"
+                android:text="#"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText40"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextView38"
+                android:layout_toLeftOf="@+id/TextView58"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextView38"
+                android:layout_marginLeft="26dp"
+                android:layout_toRightOf="@+id/TextView52"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView38"
+                android:layout_below="@+id/TextView38" >
+
+                <TextView
+                    android:id="@+id/TextView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="21dp"
+                    android:text="12-23 m  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"
+                    app:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/EditText74"
+                    android:layout_width="95dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.02"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/EditText65"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/LinearLayout01"
+                android:layout_below="@+id/LinearLayout01"
+                android:layout_marginTop="28dp"
+                android:text="2-4 a"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText56"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/TextView35"
+                android:layout_alignLeft="@+id/EditText49"
+                android:layout_alignRight="@+id/EditText49"
+                android:layout_below="@+id/LinearLayout01"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText62"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/EditText56"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/EditText56"
+                android:layout_toRightOf="@+id/EditText56"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/TextView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TextView35"
+                android:layout_marginTop="24dp"
+                android:text="5-9 a"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText38"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/TextView29"
+                android:layout_alignLeft="@+id/EditText49"
+                android:layout_below="@+id/EditText56"
+                android:layout_toLeftOf="@+id/TextView58"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText60"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/EditText38"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/EditText38"
+                android:layout_toRightOf="@+id/EditText49"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/TextView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView29"
+                android:layout_centerVertical="true"
+                android:text="10-14 a"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText61"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/TextView59"
+                android:layout_alignLeft="@+id/EditText49"
+                android:layout_below="@+id/EditText38"
+                android:layout_toLeftOf="@+id/TextView58"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText41"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/EditText61"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/EditText61"
+                android:layout_toRightOf="@+id/EditText49"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/TextView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView59"
+                android:layout_below="@+id/TextView59"
+                android:layout_marginTop="25dp"
+                android:text="15-18 a"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText59"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/TextView40"
+                android:layout_alignLeft="@+id/EditText49"
+                android:layout_below="@+id/EditText61"
+                android:layout_toLeftOf="@+id/TextView58"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText64"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/EditText59"
+                android:layout_alignLeft="@+id/EditText37"
+                android:layout_alignRight="@+id/EditText37"
+                android:layout_alignTop="@+id/EditText59"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/TextView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView40"
+                android:layout_below="@+id/TextView40"
+                android:layout_marginTop="28dp"
+                android:text="18-24 a"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView37"
+                android:layout_below="@+id/TextView37"
+                android:layout_marginTop="22dp"
+                android:text="25-49 a"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView34"
+                android:layout_below="@+id/TextView34"
+                android:layout_marginTop="25dp"
+                android:text="50-60 a"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView50"
+                android:layout_below="@+id/TextView50"
+                android:layout_marginTop="21dp"
+                android:text="70 y mas"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText63"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/TextView37"
+                android:layout_alignLeft="@+id/EditText49"
+                android:layout_below="@+id/EditText59"
+                android:layout_toLeftOf="@+id/TextView58"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText72"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/TextView34"
+                android:layout_alignRight="@+id/EditText37"
+                android:layout_below="@+id/EditText64"
+                android:layout_toRightOf="@+id/EditText49"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText54"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/TextView50"
+                android:layout_alignLeft="@+id/EditText49"
+                android:layout_below="@+id/EditText63"
+                android:layout_toLeftOf="@+id/TextView58"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText47"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/EditText54"
+                android:layout_alignRight="@+id/EditText37"
+                android:layout_below="@+id/EditText72"
+                android:layout_toRightOf="@+id/EditText49"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText43"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/TextView50"
+                android:layout_alignLeft="@+id/EditText49"
+                android:layout_below="@+id/EditText54"
+                android:layout_toLeftOf="@+id/TextView58"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText39"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/TextView54"
+                android:layout_alignLeft="@+id/EditText37"
+                android:layout_alignRight="@+id/EditText37"
+                android:layout_below="@+id/EditText47"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText73"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/TextView54"
+                android:layout_alignLeft="@+id/EditText49"
+                android:layout_below="@+id/EditText43"
+                android:layout_toLeftOf="@+id/TextView58"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText46"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/EditText73"
+                android:layout_alignRight="@+id/EditText37"
+                android:layout_alignTop="@+id/EditText73"
+                android:layout_toRightOf="@+id/EditText49"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/EditText45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/EditText69"
+            android:layout_alignRight="@+id/EditText69"
+            android:layout_alignTop="@+id/RelativeLayout06"
+            android:layout_marginTop="228dp"
+            android:ems="10"
+            android:hint="Observaciones Grupo Edades"
+            android:inputType="textMultiLine"
+            app:ignore="HardcodedText" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout04"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/RelativeLayout06"
+            android:layout_below="@+id/RelativeLayout06"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/shape" >
+
+            <EditText
+                android:id="@+id/EditText48"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/TextView60"
+                android:ems="10"
+                android:hint="Total"
+                android:inputType="numberDecimal"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/EditText48"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:text="Laboratorio"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditText53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/TextView56"
+                android:layout_alignLeft="@+id/EditText48"
+                android:layout_alignRight="@+id/EditText75"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/EditText75"
+                android:layout_below="@+id/TextView30"
+                android:layout_toRightOf="@+id/EditText48"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/EditText53"
+                android:layout_alignBottom="@+id/EditText53"
+                android:layout_alignLeft="@+id/EditText58"
+                android:layout_alignRight="@+id/EditText58"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/EditText75"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/EditText48"
+                android:layout_below="@+id/TextView57"
+                android:layout_toRightOf="@+id/TextView56"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/TextView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView60"
+                android:layout_below="@+id/EditText48"
+                android:text="Muestras Respiratorias"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TextView48"
+                android:layout_centerHorizontal="true"
+                android:text="#"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/EditText58"
+                android:layout_below="@+id/TextView48"
+                android:text="%"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/EditText75"
+                android:layout_alignLeft="@+id/TextView56"
+                android:text="Virales"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TextView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="23dp"
+                android:layout_toLeftOf="@+id/EditText48"
+                android:text="Bacterianas"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                app:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/EditText69"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/RelativeLayout05"
+            android:layout_alignLeft="@+id/TextView49"
+            android:layout_alignRight="@+id/RelativeLayout07"
+            android:layout_marginBottom="52dp"
+            android:ems="10"
+            android:hint="Observaciones Total de Atenciones"
+            android:inputType="textMultiLine"
+            app:ignore="HardcodedText" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/EditText68"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/EditText45"
+            android:layout_alignRight="@+id/EditText45"
+            android:layout_alignTop="@+id/RelativeLayout04"
+            android:ems="10"
+            android:hint="Observaciones Laboratorio"
+            android:inputType="textMultiLine"
+            app:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/TextView32"
+            android:text="@string/nombre_y_apellidos_del_responsable_que_completa_el_cuestionario"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="21sp"
+            android:textStyle="normal|italic"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/EditText06f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textView100"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginLeft="66dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#48187d"
+        android:textSize="22sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText06f"
+        android:layout_below="@+id/EditText06f"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/insertc" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_below="@+id/imageButton1"
+        android:text="@string/guardar_cuestionario"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditText06f"
+        android:layout_toRightOf="@+id/editText5"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/canc" />
+
+    <TextView
+        android:id="@+id/TextView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_marginLeft="50dp"
+        android:text="@string/descartar_cambios_y_salir"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/ImageButton02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/insertc" />
+
+</RelativeLayout>
+
+    </ScrollView>
